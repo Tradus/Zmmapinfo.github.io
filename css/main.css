@@ -25,10 +25,10 @@ a:hover,a:focus{-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms
 }
 
 .main-container{margin-left:170px;background:#f5f5f5}
-.main-container .uk-card-body{padding:15px 280px 15px 15px}
+.main-container .uk-card-body{padding:0 280px 15px 15px}
 .main-container .uk-logo img{width:50px}
 @media (max-width:1600px){
-.main-container .uk-card-body{padding-right:290px}
+.main-container .uk-card-body{padding:0 290px 15px 15px}
 }
 @media (max-width:1440px){
 .main-container>.main>*{padding:0 25px}
@@ -39,7 +39,7 @@ a:hover,a:focus{-webkit-transition:all .2s ease;-moz-transition:all .2s ease;-ms
 }
 @media (max-width:959px){
 .main-container{margin-left:110px}
-.main-container .uk-card-body{padding:10px}
+.main-container .uk-card-body{padding:0 0 15px 15px}
 }
 @media (max-width:639px){
 .main-container{margin-left:0}
@@ -92,4 +92,4 @@ h2{font-size:26px}
 .uk-tooltip-inner:first-letter{text-transform:capitalize}
 
 .recipe{padding:0;margin-top:15px; margin-left:15px}
-.main-container .uk-card-body{padding:0 35% 15px 15px}
+div.uk-tooltip{z-index:9999}
